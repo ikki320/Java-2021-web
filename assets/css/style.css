@@ -68,7 +68,41 @@ footer a{
 #menu ul li:hover a{
     color: white;
 }
+#contenido table{
+    margin: auto;
+}
+#contenido h2{
+    text-align: center;
+    color: darkslategrey;
+    margin: 10px;
+}
 
+#contenido form{
+    border: 3px solid darkslategrey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#contenido form *{
+    display: inline-block;    
+}
+
+input [type="text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"], button{
+    background: deepskyblue;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
 /*selector por clase*/
 .clearfix{
     float: none;
