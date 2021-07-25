@@ -103,6 +103,32 @@ input[type="submit"], button{
     border: 1px solid black;
     cursor: pointer;
 }
+#contenido1 table{
+    margin: 50px;
+}
+#contenido1 h2{
+    text-align:center;
+    color: darkslategrey;
+    margin: 50px;
+}
+
+#contenido1 form{
+    border: 3px solid darkslategrey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px
+}
+
+#contenido1 form *{
+    display:block            
+}
+#contenido1 P.blocktext {
+    
+}
+
 /*selector por clase*/
 .clearfix{
     float: none;
