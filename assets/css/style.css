@@ -125,10 +125,6 @@ input[type="submit"], button{
 #contenido1 form *{
     display:block            
 }
-#contenido1 P.blocktext {
-    
-}
-
 /*selector por clase*/
 .clearfix{
     float: none;
