@@ -102,6 +102,7 @@ input[type="submit"], button{
     text-transform: uppercase;
     border: 1px solid black;
     cursor: pointer;
+    
 }
 #contenido1 table{
     margin: 50px;
@@ -110,20 +111,27 @@ input[type="submit"], button{
     text-align:center;
     color: darkslategrey;
     margin: 50px;
+    
 }
 
 #contenido1 form{
     border: 3px solid darkslategrey;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 30px;
+    padding: 250px;
     margin-left: auto;
     margin-right: auto;
     width: 250px
 }
 
 #contenido1 form *{
-    display:block            
+    display:block;
+                 
+}
+#msj input{
+height: 300PX;
+width: 450PX;
+padding: 0cm;
 }
 /*selector por clase*/
 .clearfix{
